@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ruža</string>
+
+    <!-- Strings related to login -->
+    <string name="loginWait">Prihlasujem, prosím čakajte...</string>
+    <string name="title_login">Využívajte služby Ruže</string>
+    <string name="title_register">Zaregistrujte sa v Ruži</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Celé meno</string>
+    <string name="prompt_date">Dátum narodenia</string>
+    <string name="prompt_password">Heslo</string>
+    <string name="action_log_in">Prihlásiť sa</string>
+    <string name="action_log_in_short">Prihlásiť</string>
+    <string name="action_sign_in">Vytvoriť nový účet</string>
+    <string name="action_sign_in_short">Nový účet</string>
+    <string name="error_invalid_email">Tento email je neplatný</string>
+    <string name="error_invalid_password">Heslo je príliš krátke</string>
+    <string name="error_incorrect_password">Nesprávne heslo</string>
+    <string name="error_field_required">Vyplnte prosím</string>
+    <string name="actionForgotPass">Zabudli ste heslo?</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

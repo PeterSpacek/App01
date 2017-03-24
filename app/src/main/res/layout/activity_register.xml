@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="peter.ruza.RegisterActivity"
+    android:background="@drawable/minimalistic_gaussian_blur"
+    >
+    <ProgressBar
+        android:id="@+id/register_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <ScrollView
+        android:id="@+id/register_form"
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    <LinearLayout
+        android:id="@+id/email_register_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/title_register"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText
+            android:id="@+id/editTextEmailR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress" />
+        <!--
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="@string/prompt_name"
+                    android:inputType="textEmailAddress" />
+                <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="@string/prompt_date"
+                    android:inputType="date" />
+-->
+                <EditText
+                    android:id="@+id/editTextPasswordR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="@string/prompt_password"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/buttonSignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:elevation="0dp"
+                    android:text="@string/action_sign_in" />
+
+                <TextView
+                    android:id="@+id/textViewSignin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="@string/action_log_in"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+            </ScrollView>
+        </android.support.constraint.ConstraintLayout>

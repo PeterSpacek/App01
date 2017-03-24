@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "570903585472",
+    "firebase_url": "https://ruza-7ab99.firebaseio.com",
+    "project_id": "ruza-7ab99",
+    "storage_bucket": "ruza-7ab99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570903585472:android:83689d5b25d8c0dc",
+        "android_client_info": {
+          "package_name": "peter.ruza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570903585472-dt0ciob9inhk1kfmque6e2a82j2h2i1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGen4FzslVSqkw5SyxEdCLpzHQEv1-754"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

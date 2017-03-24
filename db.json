@@ -1,0 +1,52 @@
+{
+  "ruženec":[
+    {
+      "ruženec": "radostný ruženec",
+      "prosba": [
+        {
+          "text": "ktorý nech rozmnožuje vieru našu"
+        },
+        {
+          "text": "ktorý nech posilňuje nádej našu"
+        },
+        {
+          "text": "ktorý nech roznecuje lásku našu"
+        }
+      ],
+      "tajomstvo": [
+        {
+          "text":  "ktorého si Panna z Ducha Svätého počala",
+          "tema": "pokora",
+          "odkaz": "Lk 1, 26-38"
+        },
+        {
+          "text": "ktorého si pri navštívení Alžbety v živote nosila"
+        },
+        {
+          "text": "ktorého si v Betleheme porodila"
+        },
+        {
+          "text": "ktorého si v chráme obetovala"
+        },
+        {
+          "text": "ktorého si v chráme našla"
+        }
+      ]
+    }
+  ,
+    {
+      "name": "bolestný ruženec"
+
+    }
+  ,
+    {
+      "name": "slávnostný ruženec"
+
+    }
+  ,
+    {
+      "name":  "ruženec svetla"
+
+    }
+  ]
+}
