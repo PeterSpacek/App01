@@ -21,4 +21,29 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <string name="open">Otvoriť</string>
+    <string name="close">Zavrieť</string>
+    <string name="my_rose">Moja ruža</string>
+    <string name="about">O aplikácií</string>
+
+    <string name="secret">Tajomstvo mesiaca</string>
+    <string name="add_intent">Pridaj úmysel</string>
+    <string name="todays_intent">Úmysel na dnes</string>
+
+    <string name="logout">Odhlásiť sa</string>
+    <string name="my_profile">Môj profil</string>
+    <string name="title_activity_dra">dra</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
 </resources>
